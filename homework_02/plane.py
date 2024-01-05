@@ -1,6 +1,6 @@
 # from homework_02.base import Vehicle
-from exceptions import CargoOverload
-from base import Vehicle
+from homework_02.exceptions import CargoOverload
+from homework_02.base import Vehicle
 
 class Plane(Vehicle):
     def __init__(self, cargo, max_cargo, weight, started, fuel, fuel_consumption):
